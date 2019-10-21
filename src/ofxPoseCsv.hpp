@@ -13,10 +13,14 @@ public:
     void load();
     void draw();
     void update();
+    ofVboMesh getMesh();
+    
     
     void setMode(int _mode);
     void setFrame(int _frame);
     int getFrameSize();
     void debugDraw();
+    
+    
 };
 

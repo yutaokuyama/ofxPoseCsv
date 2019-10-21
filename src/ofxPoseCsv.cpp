@@ -109,6 +109,10 @@ void ofxPoseCsv::update(){
     frame= frame%getFrameSize();
 }
 
+ofVboMesh  ofxPoseCsv::getMesh(){
+    return poseMesh[frame];
+}
+
 
 
 
